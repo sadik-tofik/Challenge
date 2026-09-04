@@ -1,0 +1,13 @@
+rpc:
+  listen: "tcp://127.0.0.1:6001"
+
+gzip:
+  enable: false
+
+grpc:
+  listen: "tcp://0.0.0.0:9001"
+  proto: "ping.proto"
+  workers:
+    command: "php worker.php"
+    pool:
+      numWorkers: 2

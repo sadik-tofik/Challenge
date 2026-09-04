@@ -1,0 +1,24 @@
+# PHP dependencies
+/vendor/
+
+# Downloaded code-generation archives
+/protoc-gen-php-grpc-*.tar.gz
+
+# Frontend dependencies and build output
+/frontend/node_modules/
+/frontend/build/
+
+# Local environment files
+.env
+.env.*
+!.env.example
+
+# Logs and local runtime files
+*.log
+*.pid
+
+# Operating system and editor files
+.DS_Store
+.idea/
+.vscode/
+*.swp

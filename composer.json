@@ -1,0 +1,14 @@
+{
+  "name": "challenge/grpc-backend",
+  "require": {
+    "php": ">=7.3 <7.4",
+    "spiral/php-grpc": "^1.4",
+    "google/protobuf": "^3.17"
+  },
+  "autoload": {
+    "psr-4": {
+      "App\\GRPC\\": "generated/App/GRPC/",
+      "App\\": "src/"
+    }
+  }
+}
